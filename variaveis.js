@@ -23,8 +23,10 @@ idade=20
 peso=95
 estudante=true
 
-console.log (nome)
-console.log (sobrenome)
-console.log (idade)
-console.log (peso)
-console.log (estudante)
+console.log ("Nome:", nome)
+console.log ("Sobrenome:", sobrenome)
+console.log ("Idade:", idade)
+console.log ("Peso:", peso, "Kg")
+console.log ("É estudante:", estudante)
+
+console.log (`Nome: ${nome}, Sobrenome: ${sobrenome}, Idade: ${idade}, com peso de: ${peso}, Você é estudante: ${estudante}`)
